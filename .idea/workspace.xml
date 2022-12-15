@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="add setColor()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="drawing rect works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/misc/Vector2i.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670241589226</updated>
       <workItem from="1670241590559" duration="633000" />
-      <workItem from="1671089008026" duration="2584000" />
+      <workItem from="1671089008026" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671091156747</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="drawing rect works">
+      <created>1671091822644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671091822644</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +164,7 @@
     <MESSAGE value="window icon ready" />
     <MESSAGE value="canvas works" />
     <MESSAGE value="add setColor()" />
-    <option name="LAST_COMMIT_MESSAGE" value="add setColor()" />
+    <MESSAGE value="drawing rect works" />
+    <option name="LAST_COMMIT_MESSAGE" value="drawing rect works" />
   </component>
 </project>
