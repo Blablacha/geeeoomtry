@@ -1,6 +1,8 @@
 package app;
 
 import io.github.humbleui.jwm.*;
+
+import java.io.File;
 import java.util.function.Consumer;
 /**
  * Класс окна приложения
@@ -22,6 +24,11 @@ public class Application implements Consumer<Event> {
 // задаём его положение
         window.setWindowPosition(100, 100);
         window.setTitle("Java 2D");
+        // задаём иконку
+        switch (Platform.CURRENT) {
+            case WINDOWS -> window.setIcon(new File("src/main/resources/windows.ico"));
+            case MACOS -> window.setIcon(new File("src/main/resources/macos.icns"));
+        }
         window.setVisible(true);
     }
 
