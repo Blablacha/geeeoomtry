@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="drawing rect works">
-      <change afterPath="$PROJECT_DIR$/src/main/java/panels/Panel.java" afterDir="false" />
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="panel created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Fonts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controls/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
       <updated>1670241589226</updated>
       <workItem from="1670241590559" duration="633000" />
       <workItem from="1671089008026" duration="2895000" />
-      <workItem from="1674112483067" duration="300000" />
+      <workItem from="1674112483067" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671091822644</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="panel created">
+      <created>1674112812711</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674112812711</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +176,7 @@
     <MESSAGE value="canvas works" />
     <MESSAGE value="add setColor()" />
     <MESSAGE value="drawing rect works" />
-    <option name="LAST_COMMIT_MESSAGE" value="drawing rect works" />
+    <MESSAGE value="panel created" />
+    <option name="LAST_COMMIT_MESSAGE" value="panel created" />
   </component>
 </project>
