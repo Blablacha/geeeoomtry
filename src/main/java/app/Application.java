@@ -29,6 +29,14 @@ public class Application implements Consumer<Event> {
      */
     private final Label label;
     /**
+     * Первый заголовок
+     */
+    private final Label label2;
+    /**
+     * Первый заголовок
+     */
+    private final Label label3;
+    /**
      * радиус скругления элементов
      */
     public static final int C_RAD_IN_PX = 4;
@@ -36,6 +44,7 @@ public class Application implements Consumer<Event> {
      * отступы панелей
      */
     public static final int PANEL_PADDING = 5;
+
     /**
      * Конструктор окна приложения
      */
@@ -45,7 +54,14 @@ public class Application implements Consumer<Event> {
 
         // создаём первый заголовок
         label = new Label(window, true, PANEL_BACKGROUND_COLOR, PANEL_PADDING,
-                "Привет, мир!", true, true);
+                4, 4, 1, 1, 1, 1, "Привет, мир!", true, true);
+        // создаём второй заголовок
+        label2 = new Label(window, true, PANEL_BACKGROUND_COLOR, PANEL_PADDING,
+                4, 4, 0, 3, 1, 1, "Второй заголовок", true, true);
+
+        // создаём третий заголовок
+        label3 = new Label(window, true, PANEL_BACKGROUND_COLOR, PANEL_PADDING,
+                4, 4, 2, 0, 1, 1, "Это тоже заголовок", true, true);
         // задаём обработчиком событий текущий объект
         window.setEventListener(this);
         // задаём заголовок
@@ -98,13 +114,11 @@ public class Application implements Consumer<Event> {
     public void accept(Event e) {
         if (e instanceof EventWindowClose) {
             App.terminate();
-        }else if (e instanceof EventWindowCloseRequest) {
+        } else if (e instanceof EventWindowCloseRequest) {
             window.close();
         } else if (e instanceof EventFrameSkija ee) {
             Surface s = ee.getSurface();
-            paint(s.getCanvas(), new CoordinateSystem2i(
-                    s.getWidth() / 3, s.getHeight() / 3,
-                    s.getWidth() / 3,  s.getHeight() / 3));
+            paint(s.getCanvas(), new CoordinateSystem2i(s.getWidth(), s.getHeight()));
         }
     }
 
@@ -119,8 +133,12 @@ public class Application implements Consumer<Event> {
         canvas.save();
         // очищаем канвас
         canvas.clear(APP_BACKGROUND_COLOR);
-          // рисуем заголовок в точке [100,100] с шириной и выостой 200
-        label.paint(canvas, new CoordinateSystem2i(100, 100, 200, 200));
+        // рисуем заголовок
+        label.paint(canvas, windowCS);
+        // рисуем второй заголовок
+        label2.paint(canvas, windowCS);
+        // рисуем третий заголовок
+        label3.paint(canvas, windowCS);
         // восстанавливаем состояние канваса
         canvas.restore();
     }
