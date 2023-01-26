@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="float cs">
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="task rendering works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panels/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/Panel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1670241590559" duration="633000" />
       <workItem from="1671089008026" duration="2895000" />
       <workItem from="1674112483067" duration="2268000" />
-      <workItem from="1674716967247" duration="1735000" />
+      <workItem from="1674716967247" duration="2670000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674718286404</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task rendering works">
+      <created>1674718955035</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674718955035</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +226,7 @@
     <MESSAGE value="4 panels" />
     <MESSAGE value="add task classes" />
     <MESSAGE value="float cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="float cs" />
+    <MESSAGE value="task rendering works" />
+    <option name="LAST_COMMIT_MESSAGE" value="task rendering works" />
   </component>
 </project>

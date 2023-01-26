@@ -125,20 +125,27 @@ public class Application implements Consumer<Event> {
     }
 
     /**
-     * обработчик событий
+     * Обработчик событий
      *
      * @param e событие
      */
     @Override
     public void accept(Event e) {
+        // если событие - это закрытие окна
         if (e instanceof EventWindowClose) {
+            // завершаем работу приложения
             App.terminate();
         } else if (e instanceof EventWindowCloseRequest) {
             window.close();
         } else if (e instanceof EventFrameSkija ee) {
+            // получаем поверхность рисования
             Surface s = ee.getSurface();
+            // очищаем её канвас заданным цветом
             paint(s.getCanvas(), new CoordinateSystem2i(s.getWidth(), s.getHeight()));
         }
+        panelControl.accept(e);
+        panelRendering.accept(e);
+        panelLog.accept(e);
     }
 
     /**
