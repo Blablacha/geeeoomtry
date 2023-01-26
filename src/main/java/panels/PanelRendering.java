@@ -1,5 +1,6 @@
 package panels;
 
+import app.Task;
 import controls.Label;
 import io.github.humbleui.jwm.Event;
 import io.github.humbleui.jwm.Window;
@@ -14,10 +15,9 @@ import static app.Fonts.PANEL_BACKGROUND_COLOR;
  */
 public class PanelRendering extends GridPanel {
     /**
-     * Заголовок
+     * Представление проблемы
      */
-    private final Label label;
-
+    public static Task task;
     /**
      * Панель управления
      *
@@ -38,9 +38,6 @@ public class PanelRendering extends GridPanel {
     ) {
         super(window, drawBG, color, padding, gridWidth, gridHeight, gridX, gridY, colspan, rowspan);
 
-        // создаём первый заголовок
-        label = new Label(window, false, PANEL_BACKGROUND_COLOR, PANEL_PADDING,
-                1, 1, 0, 0, 1, 1, "Панель рисования задачи", true, true);
 
 
     }
@@ -63,6 +60,6 @@ public class PanelRendering extends GridPanel {
      */
     @Override
     public void paintImpl(Canvas canvas, CoordinateSystem2i windowCS) {
-        label.paint(canvas, windowCS);
+
     }
 }
