@@ -120,6 +120,7 @@ public class PanelLog extends GridPanel {
                     logs.remove(0);
                 logs.add(new Record(recordType, limitedLine, Calendar.getInstance().getTime()));
             }
+
         }
     }
 
