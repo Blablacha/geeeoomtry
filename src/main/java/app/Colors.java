@@ -18,6 +18,7 @@ public class Colors {
 
     /**
      * Запрещённый конструктор
+     *
      */
     private Colors() {
         throw new AssertionError("Вызов этого конструктора запрещён");
