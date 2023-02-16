@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="task rendering works">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelLog.java" afterDir="false" />
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="log works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controls/MultiLineLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Colors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674718955035</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="log works">
+      <created>1676533249646</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676533249646</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +232,10 @@
     <MESSAGE value="add task classes" />
     <MESSAGE value="float cs" />
     <MESSAGE value="task rendering works" />
-    <option name="LAST_COMMIT_MESSAGE" value="task rendering works" />
+    <MESSAGE value="log works" />
+    <option name="LAST_COMMIT_MESSAGE" value="log works" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/geeeoomtry6$Main.ic" NAME="Main Coverage Results" MODIFIED="1676532870443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
