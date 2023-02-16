@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="task rendering works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panels/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/Panel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,7 @@
       <workItem from="1671089008026" duration="2895000" />
       <workItem from="1674112483067" duration="2268000" />
       <workItem from="1674716967247" duration="2670000" />
+      <workItem from="1676532051042" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
