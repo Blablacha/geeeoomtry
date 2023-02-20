@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="input select works">
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="input tab works">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controls/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controls/InputFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controls/InputFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Colors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <workItem from="1674112483067" duration="2268000" />
       <workItem from="1674716967247" duration="2670000" />
       <workItem from="1676532051042" duration="652000" />
-      <workItem from="1676888859228" duration="1603000" />
+      <workItem from="1676888859228" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676890164668</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="input tab works">
+      <created>1676890705584</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676890705584</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +274,8 @@
     <MESSAGE value="multiline label" />
     <MESSAGE value="inputs work" />
     <MESSAGE value="input select works" />
-    <option name="LAST_COMMIT_MESSAGE" value="input select works" />
+    <MESSAGE value="input tab works" />
+    <option name="LAST_COMMIT_MESSAGE" value="input tab works" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geeeoomtry6$Main.ic" NAME="Main Coverage Results" MODIFIED="1676534201324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
