@@ -1,5 +1,9 @@
 package misc;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Objects;
 
 /**
@@ -24,13 +28,12 @@ public class CoordinateSystem2d {
     /**
      * Конструктор ограниченной двумерной вещественной системы координат
      *
-     * @param minX  минимальная X координата
-     * @param minY  минимальная Y координата
-     * @param sizeX размер по оси X
-     * @param sizeY размер по оси Y
+     * @param min минимальные координаты
+     * @param max максимальные координаты
      */
-    public CoordinateSystem2d(double minX, double minY, double sizeX, double sizeY) {
-        set(minX, minY, sizeX, sizeY);
+    @JsonCreator
+    public CoordinateSystem2d(@JsonProperty("min") Vector2d min, @JsonProperty("max") Vector2d max) {
+        this(min.x, min.y, max.x - min.x, max.y - min.y);
     }
 
     /**
@@ -43,17 +46,17 @@ public class CoordinateSystem2d {
         this(0, 0, sizeX, sizeY);
     }
 
-
     /**
      * Конструктор ограниченной двумерной вещественной системы координат
      *
-     * @param min минимальные координаты
-     * @param max максимальные координаты
+     * @param minX  минимальная X координата
+     * @param minY  минимальная Y координата
+     * @param sizeX размер по оси X
+     * @param sizeY размер по оси Y
      */
-    public CoordinateSystem2d(Vector2d min, Vector2d max) {
-        this(min.x, min.y, max.x - min.x, max.y - min.y);
+    public CoordinateSystem2d(double minX, double minY, double sizeX, double sizeY) {
+        set(minX, minY, sizeX, sizeY);
     }
-
 
     /**
      * Задать новые границы
@@ -75,6 +78,7 @@ public class CoordinateSystem2d {
      *
      * @return случайные координаты внутри СК
      */
+    @JsonIgnore
     public Vector2d getRandomCoords() {
         Vector2d r = Vector2d.rand(min, max);
         return r;
@@ -177,6 +181,7 @@ public class CoordinateSystem2d {
      *
      * @return размер СК
      */
+    @JsonIgnore
     public Vector2d getSize() {
         return size;
     }

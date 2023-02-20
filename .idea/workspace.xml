@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="random points">
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="control beginning">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/panels/PanelRendering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,7 @@
       <workItem from="1674112483067" duration="2268000" />
       <workItem from="1674716967247" duration="2670000" />
       <workItem from="1676532051042" duration="652000" />
-      <workItem from="1676888859228" duration="3337000" />
+      <workItem from="1676888859228" duration="4945000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -248,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676891926745</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="control beginning">
+      <created>1676892220978</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676892220978</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +302,8 @@
     <MESSAGE value="input tab works" />
     <MESSAGE value="buttons work" />
     <MESSAGE value="random points" />
-    <option name="LAST_COMMIT_MESSAGE" value="random points" />
+    <MESSAGE value="control beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="control beginning" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geeeoomtry6$Main.ic" NAME="Main Coverage Results" MODIFIED="1676534201324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
