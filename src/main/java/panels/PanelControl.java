@@ -71,6 +71,18 @@ public class PanelControl extends GridPanel {
 
 
 
+    /**
+     * Метод под рисование в конкретной реализации
+     *
+     * @param canvas   область рисования
+     * @param windowCS СК окна
+     */
+    @Override
+    public void paintImpl(Canvas canvas, CoordinateSystem2i windowCS) {
+        task.paint(canvas, windowCS);
+        xLabel.paint(canvas, windowCS);
+        xField.paint(canvas, windowCS);
+    }
 
     /**
      * Обработчик событий
@@ -83,18 +95,5 @@ public class PanelControl extends GridPanel {
         super.accept(e);
         // передаём обработку полю ввода X
         xField.accept(e);
-    }
-
-    /**
-     * Метод под рисование в конкретной реализации
-     *
-     * @param canvas   область рисования
-     * @param windowCS СК окна
-     */
-    @Override
-    public void paintImpl(Canvas canvas, CoordinateSystem2i windowCS) {
-        task.paint(canvas, windowCS);
-        xLabel.paint(canvas, windowCS);
-        xField.paint(canvas, windowCS);
     }
 }

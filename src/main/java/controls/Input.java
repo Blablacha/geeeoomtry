@@ -95,26 +95,17 @@ public class Input extends GridPanel {
                 canvas.drawTextLine(line, 0, 0, paint);
                 // если время рисовать курсор
                 if (InputFactory.cursorDraw()) {
+                    // смещаем область рисования
+                    canvas.translate(line.getWidth(), 0);
                     // рисуем его
                     canvas.drawRect(Rect.makeXYWH(0, metrics.getAscent(), 2, metrics.getHeight()), paint);
                 }
             }
+
             // восстанавливаем область рисования
             canvas.restore();
 
         }
-    }
-
-    /**
-     * Обработчик событий
-     * При перегрузке обязателен вызов реализации предка
-     *
-     * @param e событие
-     */
-    @Override
-    public void accept(Event e) {
-        // вызываем обработчик предка
-        super.accept(e);
     }
 
     /**
