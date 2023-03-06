@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="unit tests">
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Colors.java" afterDir="false" />
+    <list default="true" id="157ccb9b-598c-45cf-9415-3353a514912e" name="Changes" comment="cs rendering">
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/misc/CoordinateSystem2i.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <workItem from="1674716967247" duration="2670000" />
       <workItem from="1676532051042" duration="652000" />
       <workItem from="1676888859228" duration="5550000" />
-      <workItem from="1678098417993" duration="686000" />
+      <workItem from="1678098417993" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="skija connected">
       <created>1670241730367</created>
@@ -311,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678098888016</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="cs rendering">
+      <created>1678099155407</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678099155407</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="events consumer works" />
     <MESSAGE value="window works" />
     <MESSAGE value="window title ready" />
     <MESSAGE value="window icon ready" />
@@ -354,7 +358,8 @@
     <MESSAGE value="json works" />
     <MESSAGE value="solve button" />
     <MESSAGE value="unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit tests" />
+    <MESSAGE value="cs rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="cs rendering" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geeeoomtry6$Main.ic" NAME="Main Coverage Results" MODIFIED="1676534201324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
